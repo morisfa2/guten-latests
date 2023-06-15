@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "settings": {
+    "color": {
+      "palette": [
+        {
+          "name": "red",
+          "slug": "red",
+          "color": "#f00"
+        },
+        {
+          "name": "white",
+          "slug": "white",
+          "color": "#fff"
+        },
+        {
+          "name": "blue",
+          "slug": "blue",
+          "color": "#00f"
+        }
+      ]
+    }
+  }
+}
+

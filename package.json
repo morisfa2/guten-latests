@@ -1,0 +1,21 @@
+{
+  "name": "latest-guten-block",
+  "version": "0.5.3",
+  "description": "Show Latest Posts For Word-press Gutenberg Editor",
+  "author": "morisfa",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/icons": "^9.21.0",
+    "@wordpress/scripts": "^26.1.0",
+    "classnames": "^2.3.2"
+  },
+  "scripts": {
+    "build": "wp-scripts build",
+    "start": "wp-scripts start"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.14",
+    "mini-css-extract-plugin": "^2.7.6",
+    "webpack": "^5.87.0"
+  }
+}

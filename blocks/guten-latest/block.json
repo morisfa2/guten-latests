@@ -1,0 +1,39 @@
+{
+	"$schema": "https://json.schemastore.org/block.json",
+	"apiVersion": 2,
+	"name": "morisfa/guten-latest",
+	"title": "Latest Guten",
+	"category": "widgets",
+	"description": "List 3latest Post with gutenberg",
+	"keywords": [ "gutenberg"],
+	"PaletteColors" : [
+		{ "name": "red", "color": "#f00" },
+		{ "name": "white", "color": "#fff" },
+		{ "name": "blue", "color": "#00f" }
+	],
+	"attributes": {
+
+		"selectedColor": {
+			"default": "",
+			"type": "string"
+		},
+		"termID": {
+			"default": 0,
+			"type": "number"
+		},
+		"taxonomies": {
+			"items": {
+				"type": "object"
+			},
+			"type": "array"
+		}
+
+	},
+	"editorStyle": "file:../../build/guten-latest.css",
+	"supports": {
+		"align": true,
+		"html": false
+	},
+	"editorScript": "file:../../build/guten-latest.js"
+
+}

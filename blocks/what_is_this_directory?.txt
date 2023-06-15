@@ -1,0 +1,2 @@
+if in future we want add new block we not need to generate new plugin for new block
+create a new folder for new block and add new line in WEBPACK entry line , with name and path of new block folder

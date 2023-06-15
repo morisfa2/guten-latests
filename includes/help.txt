@@ -1,0 +1,1 @@
+we can add more dynamic render blocks in this folder and register in main plugin file
